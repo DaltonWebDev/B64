@@ -1,0 +1,201 @@
+*,
+*::before,
+*::after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	margin: 0;
+	color: #000000;
+	background-color: #efefef;
+	font-family: "Rubik", sans-serif;
+	font-size: 18px;
+	-webkit-text-size-adjust: 100%;
+	text-align: center;
+	-webkit-overflow-scrolling: touch;
+}
+
+a {
+	color: #00c5ff;
+	text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active {
+	outline: 0 none;
+}
+
+.card {
+	background-color: #f5f5f5;
+	padding: 40px;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	box-shadow: 0 10px 20px 0 hsla(0, 0%, 0%, 0.2);
+	white-space: initial;
+	-ms-word-break: break-all;
+	word-break: break-all;
+	word-break: break-word;
+}
+
+#logo {
+	margin-bottom: 20px;
+}
+
+#logo h1 {
+	font-size: 40px;
+	margin-top: 40px;
+	margin-bottom: 10px;
+}
+
+#logo h1 a {
+	color: #00c5ff;
+	text-decoration: none;
+}
+
+#logo p {
+	margin-bottom: 40px;
+}
+
+input[type=text],
+input[type=username],
+input[type=email],
+input[type=password] {
+	background-color: transparent;
+	color: #00c5ff;
+	margin-bottom: 20px;
+	font-size: 18px;
+	font-family: "Rubik", sans-serif;
+	width: 100%;
+	padding: 10px 20px;
+	padding-left: 0px;
+	padding-right: 0px;
+	border-radius: 0px;
+	border: none;
+	border-bottom: 2px solid #00c5ff;
+	box-sizing: border-box;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	margin-bottom: 40px;
+}
+
+button {
+	padding: 10px 20px;
+	border: 0;
+	background-color: #00c5ff;
+	color: #ffffff;
+	font-family: "Rubik", sans-serif;
+	cursor: pointer;
+	font-size: 18px;
+	outline: none;
+	border-radius: 2px;
+	box-sizing: border-box;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	display: inline-block;
+	box-shadow: 0 5px 10px 0 hsla(0, 0%, 0%, 0.2);
+	margin-bottom: 20px;
+}
+
+button:focus {
+	outline: 0;
+}
+
+button:hover,
+.platform:hover {
+	box-shadow: 0 10px 20px 0 hsla(0, 0%, 0%, 0.2);
+}
+
+.dropbtn {
+	background-color: #00c5ff;
+	color: white;
+	padding: 10px 20px;
+	font-size: 18px;
+	border: none;
+	cursor: pointer;
+	margin-bottom: 0px;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+	border-radius: 2px;
+}
+
+.dropdown-content a {
+	color: black;
+	padding: 10px 20px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.spacing {
+	height: 20px;
+}
+
+.message {
+	color: #ffffff;
+	padding: 10px 20px;
+	border-radius: 2px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+.message a {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+.message.error {
+	background-color: red;
+}
+
+.message.success {
+	background-color: #00cf55;
+}
+
+form button {
+	margin-left: 0em;
+}
+
+.link {
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-bottom: 40px;
+}
+
+footer button {
+	margin-bottom: 0em;
+}
+
+footer {
+	margin: 40px;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no">
+        <meta name="theme-color" content="#00c5ff">
+        <title>B64</title>
+        <link href="https://fonts.googleapis.com/css?family=Rubik:400,700" rel="stylesheet">
+        <link href="https://b64.me/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <main>
+        	<div id="logo">
+          		<h1><a href="https://b64.me">B64</a></h1>
+          		<p>Vanilla JavaScript URL Redirector</p>
+          	</div>
+          	<div class="card">
+          		<div id="content">
+          			<div style="margin-bottom:40px;">
+          			<h2 style="margin-top: 0em;">What is this?</h2>
+          			<p>Other similar platforms rely on a database to store links. B64 is powered by nothing more than code in your browser.</p>
+          			<p>You can download B64's source code by <a href="https://github.com/DaltonWebDev/B64">clicking here</a>. Feel free to tweak it to your liking. If you need a free website host check out my other project <a href="https://1mb.site/?ref=b64" target="_blank">1mbsite</a>.</p>
+          		</div>
+          			<form onsubmit="return getLink(event)">
+          				<p>Platform</p>
+          				<input type="text" id="platform_1" placeholder="Ex: iPhone">
+          				<div id="platforms_1"></div>
+          				<p>Where should this platform redirect to?</p>
+          				<input type="text" id="url_1" placeholder="Ex: https://itunes.apple.com/tm/app/xxx">
+          				<p>Platform</p>
+          				<input type="text" id="platform_2" placeholder="Ex: Android">
+          				<div id="platforms_2"></div>
+          				<p>Where should this platform redirect to?</p>
+          				<input type="text" id="url_2" placeholder="Ex: https://play.google.com/store/apps/xxx">
+          				<p>Fallback URL (This is where your link will redirect if visitor is on a platform that isn't defined above)</p>
+          				<input type="text" id="fallback" placeholder="Ex: https://b64.me"
+          				><button type="submit">Get Link</button>
+          			</form>
+          			<span id="notif"></span>
+          		</div>
+          	</div>
+        </main>
+        <footer>
+        	<p><a href="https://twitter.com/DaltonEdwards" target="_blank">Dalton Edwards</a> © 2018 – Proudly hosted using <a href="https://1mb.site" target="_blank">1mbsite</a> 💕</p>
+        	<div id="safe_mode"></div>
+        </footer>
+        <script src="https://b64.me/core.js"></script>
+    </body>
+</html>
